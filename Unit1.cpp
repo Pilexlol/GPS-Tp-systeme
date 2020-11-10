@@ -1,3 +1,16 @@
+//*********************************************************************************************
+//* Programme : GPS : 10/11/2020
+//*---------------------------------------------------------------------------------------------------------
+//* dernière mise a jour : 09/11/2020
+//*
+//*Programmeurs : Colbert Grégoire,Garcia Florian,Prieux Pierre Louis classe : BTSSN2
+//
+//*--------------------------------------------------------------------------------------------------------
+//* BUT : Afficher, découper et convertir une trame de GPS NMEA.
+//*Programmes associés : AUCUN
+//*********************************************************************************************
+//---------------------------------------------------------------------------------------------
+
 //---------------------------------------------------------------------------
 
 #include <vcl.h>
@@ -69,7 +82,7 @@ port.fermerport();    //On ferme le port
 
 void __fastcall TForm1::Button4Click(TObject *Sender)
 {
-   /* char c;
+   char c;
 int degre, heure;
 float minute, latitude_decimal, latitude_final, longitude_decimal, longitude_final;
 bool consumeSomething = true;
